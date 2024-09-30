@@ -1,20 +1,6 @@
 # Define image processing parameters
 sharpness_factor = 3.0 # sharpness factor for image processing
 
-# Define log file parameters
-log_file_name = 'vehicle_data_extractor.log' # name of the log file to be saved in log_files folder in cwd.
-
-# Define if we want to read api credentials from .env file or not
-override_value = True # if we want to read api credentials from .env file and not system env variables.
-
-# Define output folders
-unprocessed_files_folder = "output_files/unprocessed"
-processed_files_folder = "output_files/result_json"
-output_ocr_text = 'output_files/ocr_text'
-
-# Define model and process type choices list
-process_type_choices = ['unit_process', 'mass_process']
-model_choices = ['gemini']
 
 max_tokens =   1300 # Max number of tokens to generate
 temperature =  0  # Deterministic output from the model: keep 0
