@@ -1,0 +1,20 @@
+# Includes requirements for both extraction and validation
+#Gemini client
+google-generativeai
+
+
+# Image processing library
+Pillow==10.4.0
+
+# PDF library
+PyMuPDF==1.24.10
+
+# Document processing
+python-doctr==0.9.0
+torch==2.4.1
+torchvision==0.19.1
+
+# Data Analysis
+pandas==2.2.2
+numpy==1.26.4
+
