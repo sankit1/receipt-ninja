@@ -14,7 +14,7 @@ output_ocr_text = 'output_files/ocr_text'
 
 # Define model and process type choices list
 process_type_choices = ['unit_process', 'mass_process']
-model_choices = ['openai']
+model_choices = ['gemini']
 
 max_tokens =   1300 # Max number of tokens to generate
 temperature =  0  # Deterministic output from the model: keep 0
